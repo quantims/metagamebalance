@@ -5,7 +5,9 @@ Using a matrix, such as a matchup chart, that describes how different options in
 
 For instance, I've included a matchup chart from Super Smash Bros. 64 you can use to estimate how much usage each character in that game should have in competitive play.
 
-For a conceptual explanation, see: quantimschmitz.com/2022/12/07/a-better-way-to-measure-game-balance-using-game-theory/
+For a conceptual explanation, see: 
+
+https://quantimschmitz.com/2022/12/07/a-better-way-to-measure-game-balance-using-game-theory/
 
 
 See also:
