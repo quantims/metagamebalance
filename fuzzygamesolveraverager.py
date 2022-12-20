@@ -1,13 +1,13 @@
 import numpy as np
 from scipy.optimize import linprog
 
-#Path to file of game matrix; change this & the path on line 69 for your own use
+
 #The script expects a payoff matrix, so your matrix should have positive values for winning matchups and negative values for losing matchups
 #For instance, if a row character has a 45% chance of winning a matchup, the matrix value for that matchup should be -.05, NOT .45
-gamemat = np.loadtxt(r'C:\Users\timrs\ssb64mat.csv', delimiter=',')
+gamemat = np.loadtxt(r'C:\Users\timrs\ssb64mat.csv', delimiter=',') #Path to file of game matrix; change this & the path on line 69 for your own use
 
 #Adjust these two values for your own needs
-stdev = .1 #set standard deviation
+stdev = .1 #set standard deviation. This is how much the matchup matrix varies between players; bigger means the game differs more from player to player
 nsims = 1000 #the number of simulations we'll make
 
 sims = range(nsims)
@@ -66,7 +66,7 @@ def msne(a) :
         usageresults[n][c]=usage[c]
     
 for n in sims:
-    gamemat = np.loadtxt(r'C:\Users\timrs\ssb64mat.csv', delimiter=',') #resets gamemat. Not sure why, but this is necessary for correct results
+    gamemat = np.loadtxt(r'C:\Users\timrs\ssb64mat.csv', delimiter=',') #resets gamemat. Not sure why, but this is necessary for correct results.
     gamematn = gamemat
     for i in dimension:
         for j in dimension:
