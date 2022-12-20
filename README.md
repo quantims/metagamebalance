@@ -1,7 +1,7 @@
 # metagamebalance
 Measures metagame balance using game theory and the assumption that different players have unique skillsets that affect how they'll perform with individual strategies. 
 
-Using a matrix, such as a matchup chart, that describes how different options in a game fare against each other, and an estimate of how much these matchups will vary from player to player, this estimates how much usage each option should have in competitive play.
+Using a matrix, such as a matchup chart, that describes how different options in a game fare against each other and an estimate of how much these matchups will vary from player to player, this estimates how much usage each option should have in competitive play.
 
 For instance, I've included a matchup chart from Super Smash Bros. 64 you can use to estimate how much usage each character in that game should have in competitive play.
 
