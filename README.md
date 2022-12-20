@@ -11,7 +11,11 @@ For a conceptual explanation, see: quantimschmitz.com/2022/12/07/a-better-way-to
 See also:
 
 Alex Jaffe's approach, which offers a similar way to measure metagame balance, but without noise and with the option to manually constrain the usage of particular options.
+
 https://github.com/Blinkity/metagame
+
 His talk explaining this approach: https://www.youtube.com/watch?v=miu3ldl-nY4
 
-Siddarth Nahar's Nash Equilibrium finding code, which I repurposed: https://github.com/sid230798/Game_Theory/blob/master/Problem3/analyse_equilibrium.py
+Siddarth Nahar's Nash Equilibrium finding code, which I repurposed: 
+
+https://github.com/sid230798/Game_Theory/blob/master/Problem3/analyse_equilibrium.py
